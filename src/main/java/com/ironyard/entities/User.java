@@ -24,6 +24,7 @@ public class User
     @Column(nullable=false)
     String address;
 
+
     public String getUsername()
     {
         return username;

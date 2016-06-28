@@ -3,17 +3,12 @@ package com.ironyard.controllers;
 import com.ironyard.entities.User;
 import com.ironyard.services.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * Created by jeffryporter on 6/27/16.
  */
-
-
-
+@RestController
 public class RegistrationFormController
 {
 
